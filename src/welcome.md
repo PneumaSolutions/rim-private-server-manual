@@ -1,0 +1,4 @@
+Copyright © 2023 [Pneuma Solutions](https://www.pneumasolutions.com)
+# Welcome
+We would like to thank you for your purchase of the Remote Incident Manager server package! You are moments away from providing the best in accessible remote desktop access from right inside your workplace or network. This package provides all the features and functionality of our cloud-hosted SAAS offering, but is fully suited for an on-premises environment, whether you are connected to the internet or not.
+Note that this document does not contain information pertaining to the RIM end user client. Copies of the end user documentation are located inside the server package,  and can easily be called upon by the client application.
