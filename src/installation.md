@@ -25,7 +25,7 @@ When downloading the iso, we recommend saving it in the same directory as the vi
 1. In the "Use ISO image file:" combo-box, type or paste the name of the iso, then press enter.
 1. Power up or restart the virtual machine.
     <!-- end -->
-    ## Fusion
+## Fusion
     The process for Fusion is somewhat similar, with some differences as described below. First and foremost, it does not matter where you save the iso image.
 1. After selecting the RIM server in your virtual machine library, locate the "Settings" button in the toolbar or press *Command+E*.
 1. Select "CD/DVD (IDE)" in the new screen that appears.
