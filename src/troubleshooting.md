@@ -18,7 +18,7 @@ You will need to obtain the IP address of your virtual machine. If you are able 
 1. Navigate to the path at which you saved your serial console's output file, and open the file in notepad. Scroll down a line or two and you should see the IP address of the machine appear.
 ### VMWare Fusion
 The process for Fusion is somewhat similar.
-1. After selecting the RIM server in your virtual machine libarary, locate the "Settings" button in the toolbar or press *Command+E*.
+1. After selecting the RIM server in your virtual machine library, locate the "Settings" button in the toolbar or press *Command+E*.
 1. Locate the "Add Device" button in the toolbar.
 1. Select "Serial Port" from the new window that appears.
 1. You will be asked to enter the name of the output file. This will be saved in the directory of the virtual machine.
