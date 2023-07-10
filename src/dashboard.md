@@ -7,7 +7,7 @@ If you are a network administrator who does not have RIM installed, you can simp
 Say for instance you're workgroup is spread out among several different locations. Or maybe you want to designate groups of machines to your routine maintenance techs. Target groups allow you to do just that.
 For ease of organization, you must create at least one target group before you can configure a machine. In order to do this, simply click the "Create Target Group" button, name your group, and submit.  
 You may have as many target groups as is needed for your use case. 
-### Access Control (for Enterprise Organizations)
+### Access Control
 If your organizations assign a support technician to a specific set of machines, you probably want to ensure they only have access to that specific set. This is where the access control setting for target groups comes in.  
 When you click on a target group, you are given options to manage the machines in the group, as well as the group itself. The access control section is where you may grant access to this group on a per-account basis. Simply enter the email address of the account you wish to add, then click the "Give Access" button. Once this is done, you will be presented with a table of accounts that are given access to this group. Below each account is a "Revoke Access" button. This button does not require further confirmation.  
 It should be noted that all organization administrators are automatically granted access to manage any and all groups that are created under the organization.
@@ -18,7 +18,7 @@ When you click the "Configure Targets" link, you will arrive at a page that allo
 * Delete the target
 <!-- end -->
 Lastly, you will be able to create installers from this page that can be used to provision computers into this target group.
-## Setting up a Preconfigured RIM Installer (Pro or above)
+## Setting up a Preconfigured RIM Installer
 One of the easiest ways to set up a machine for unattended or prompted connections is by creating a custom installer. This is incredibly useful if you are configuring mass deployments, or even as a simpler way to get RIM up and running on an end user's computer you plan on providing support for on the regular.
 In order to do this:
 1. In the target management screen, click the "Build Target Installer" button.
