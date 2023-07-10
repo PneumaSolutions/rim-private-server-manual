@@ -19,7 +19,7 @@ Updates will be distributed in the form of iso images.
 ## VMWare Workstation Player 
 When downloading the iso, we recommend saving it in the same directory as the virtual machine. Once downloaded:
 1. From within the VM library, click on "Edit virtual machine settings"
-    1. If inside the virtual machine, access the option off the menu or press *CTRL+B*.
+    1. If inside the virtual machine, access the option off the menu or press *CTRL+D*.
 1. Select "CD/DVD (IDE)" in the list of hardware devices.
 1. Select "Use ISO image file:" or press *Alt+M*.
 1. In the "Use ISO image file:" combo-box, type or paste the name of the iso, then press enter.
