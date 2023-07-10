@@ -1,14 +1,16 @@
 # The RIM Management Dashboard
-Your RIM server features a  web-based dashboard to facilitate various machine and account management tasks. You can manage your existing unattended computers, create preconfigured installers for target computers, and much more.  
+Your RIM server features a  web-based dashboard to facilitate various machine and account management tasks. You can create preconfigured installers for target computers, manage your existing unattended computers, and much more.  
 ## Locating the Dashboard
-If you're a controller, the easiest way to get to the dashboard is through the main RIM interface. Clicking the RIM Dashboard button will automatically open the dashboard in your default browser, with the login already taken care of.  
 If you are a network administrator who does not have RIM installed, you can simply log into your account on your RIM server's web interface and your dashboard will appear.
+If you're also controller using a client issued by the server, the easiest way to get to the dashboard is through the main RIM interface. Clicking the RIM Dashboard button will automatically open the dashboard in your default browser, with the login already taken care of.  
+## Downloading the Client
+If you plan on using RIM in addition to administering your server, the first thing you are going to want to do is to download a fresh client installer. There will be a link on your dashboard to download a copy of the installer.
 ## Target Groups
 Say for instance you're workgroup is spread out among several different locations. Or maybe you want to designate groups of machines to your routine maintenance techs. Target groups allow you to do just that.
-For ease of organization, you must create at least one target group before you can configure a machine. In order to do this, simply click the "Create Target Group" button, name your group, and submit.  
+In the interest of efficiency and organization, the server requires that you create at least one target group before you can configure a machine. In order to do this, simply click the "Create Target Group" button, name your group, and submit.  
 You may have as many target groups as is needed for your use case. 
 ### Access Control
-If your organizations assign a support technician to a specific set of machines, you probably want to ensure they only have access to that specific set. This is where the access control setting for target groups comes in.  
+If your organization assigns a support technician to a specific set of machines, you probably want to ensure they only have access to that specific set. This is where the access control setting for target groups comes in.  
 When you click on a target group, you are given options to manage the machines in the group, as well as the group itself. The access control section is where you may grant access to this group on a per-account basis. Simply enter the email address of the account you wish to add, then click the "Give Access" button. Once this is done, you will be presented with a table of accounts that are given access to this group. Below each account is a "Revoke Access" button. This button does not require further confirmation.  
 It should be noted that all organization administrators are automatically granted access to manage any and all groups that are created under the organization.
 ## Managing Targets
