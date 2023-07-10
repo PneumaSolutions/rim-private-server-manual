@@ -8,7 +8,7 @@ Remote Incident Manager is packaged as a virtual appliance (OVA) that can be ins
 <!-- end -->
 ## VMWare Fusion
 Fusion requires an account to be created, so we cannot provide the download link directly. Once Fusion is downloaded, installed and configured:
-1. Open your downloaded RIM package. Workstation Player will bring up the import wizard.
+1. Open your downloaded RIM package. Fusion Player will bring up the import wizard.
 1. Click the "Continue" button.
 1. A standard save as dialogue will appear, at which point you can give the virtual machine a name and press enter.
 1. Once the import completes, click the "Finish" button.
