@@ -1,10 +1,10 @@
 # Troubleshooting
-This section will provide solutions to common issues you may run into.
+This section will provide solutions to common issues you may run into, as well as some known issues current as of the time of this writing.
 # Inability to resolve rim-server host
 ## The Problem
 Depending on the configuration of your network, your system may not be able to immediately resolve the rim-server hostname to the proper IP address when the machine boots up for the first time.
 ## The Solution
-You will need to obtain the IP address of your virtual machine. If you are able to access your router's control panel, you may obtain the IP address that way. However, because each router has its own interface with varying degrees of accessibility, we will not be able to provide support directly for this method. We can, however, assist in getting the IP address from the VM directly. This involves adding a Serial Port Output to the virtual machine and storing its console output to an output file.
+You will need to obtain the IP address of your virtual machine. If you are able to access your router's control panel, you may obtain the IP address that way. However, because each router has its own interface with varying degrees of accessibility, we will not be able to document this method. We can, however, assist in getting the IP address from the VM directly. This involves adding a Serial Port Output to the virtual machine and storing its console output to an output file.
 ### VMWare Workstation Player
 1. Shut down the virtual machine if you haven't already..
 1. Click on Edit virtual machine settings" or press *CTRL+D*.
@@ -21,7 +21,12 @@ The process for Fusion is somewhat similar.
 1. After selecting the RIM server in your virtual machine library, locate the "Settings" button in the toolbar or press *Command+E*.
 1. Locate the "Add Device" button in the toolbar.
 1. Select "Serial Port" from the new window that appears.
-1. You will be asked to enter the name of the output file. This will be saved in the directory of the virtual machine.
+1. You will be asked to enter the name of the output file. This will be saved in the Virtual Machines directory in your user home.
 1. Close the virtual machine settings.
 1. Boot up the machine, and wait for it to beep.
 1. Navigate to the path at which you saved your serial console's output file, and open the file in Text Edit. Scroll down a line or two and you should see the IP address of the machine appear.
+# HTTP Error 400 when building target installers (Known Issue)
+## The Problem
+In the target installer creation wizard, the selection control for choosing a target group defaults to "Please select." If you accidentally skip this without selecting a group, the form lets you submit anyway hence the http error 400.
+## The Solution
+This usually does not happen if you have selected a target group. If you are still given an error, please contact us.
