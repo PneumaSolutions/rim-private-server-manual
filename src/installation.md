@@ -16,7 +16,7 @@ Fusion requires an account to be created, so we cannot provide the download link
 <!-- end -->
 ## VMWare ESXi
 Remote Incident Manager should run under most recent versions of the ESXi server. In order to deploy RIM:
-1. Once in the esXi host client, click on "Create or register a Virtual Machine."
+1. Once in the eSXi host client, click on "Create or register a Virtual Machine."
 1. In the "Select Creation Type" list, choose "Deploy a virtual machine from an OVF or OVA file," then click the next button.
 1. Name the virtual machine, then click the "Choose Files:" button. A standard file upload browse window will appear where you can select the .ova file you downloaded.
 1. In the "Select the storage type and datastore" screen, you can safely leave everything at its default and hit next.
