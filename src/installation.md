@@ -133,6 +133,10 @@ The best way to configure URL rewrite is through a web.config file. In order for
 ```
 Replace domain.tld with your real domain, then save the file. Restart IIS once this file has been saved.
 
-### Installing RIM
+### Installing the RIM Server
 
 Now that we have a working reverse proxy, it is time to install the RIM server package. The installation is a one-click silent install. Once the installation is finished, the server will start automatically. Note that unless you have set up a reverse proxy as described above, you will need to access the server on port 7460 for initial setup. Additionally, if you intend for your RIM infrastructure to be accessible via the live web, you will need to add your own https firewall rule, as IIS only opens port 80 by default. You do not, however, need to open port 7460.
+
+### Uninstalling the RIM Server
+
+Uninstalling the RIM server is accomplished via standard means. However, its data folder (which resides in c:\ProgramData) will not be deleted. Should you wish to dispose of the data files, you can do so manually.
