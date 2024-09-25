@@ -3,9 +3,11 @@ Your RIM server features a  web-based dashboard to facilitate various machine an
 ## Locating the Dashboard
 If you are a network administrator who does not have RIM installed, you can simply log into your account on your RIM server's web interface and your dashboard will appear.
 If you're a controller using a client issued by the server, the easiest way to get to the dashboard is through the main RIM interface. Clicking the RIM Dashboard button will automatically open the dashboard in your default browser, with the login already taken care of.  
-## Downloading the Client
-If you plan on using RIM in addition to administering your server, the first thing you are going to want to do is to download a fresh client installer. There will be a link on your dashboard to download a copy of the installer.  
-Note that if you transitioned from the RIM Cloud to an on-prem server, this the RIM client installer will install over the RIM Cloud distribution. This does however mean that currently only one installation of RIM can remain on a client computer at any given time, so it is not possible to connect to both your on-prem server as well as the main RIM cloud simultaneously.
+## Authorizing the Client
+If you plan on using RIM in addition to administering your server, the first thing you are going to want to do is to provision your RIM client. There will be a link on your dashboard that will take you to a page that allows you to install a server profile. Once you land on this page, you will first be instructed to install the RIM application on your computer if you haven't done so already. Direct download links for the Windows and macOS client applications are provided on this page.  
+Once RIM is installed on your computer, go back to the profile page and click the "Install Profile" button. You will then receive a dialog from RIM stating that it has been provisioned for use with your server.  
+Note that this profile configuration page can be given to end users who will be receiving remote technical support through your organization.
+
 ## Target Groups
 Say for instance you're workgroup is spread out among several different locations. Or maybe you want to designate groups of machines to your routine maintenance techs. Target groups allow you to do just that.
 In the interest of efficiency and organization, the server requires that you create at least one target group before you can configure a machine. In order to do this, simply click the "Create Target Group" button, name your group, and submit.  
