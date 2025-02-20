@@ -1,8 +1,8 @@
 # First-Time Setup
-Once you hear the machine beep, it is time to open your browser to http://rim-server. Note that if the rim-server hostname doesn't automatically resolve, you'll need to follow the instructions in our [Troubleshooting Guide](./troubleshooting.md).
-Follow the instructions presented by the setup wizard. When entering a hostname, be sure to enter a fully qualified domain name (FQDN)) if your server has a dns record. The hostname you enter in this setup screen will be what is embedded into your client installers. In addition, it defines the url that will be used when visiting your server's web management dashboard, as well as obtaining ssl certificates.
+Once the RIM server is installed, open your web browser to the IP or domain of the server. You will need to append port 7460 for this first-time setup if you are not running a reverse proxy.  
+Follow the instructions presented by the setup wizard. When entering a hostname, be sure to enter a fully qualified domain name (FQDN) if your server has a dns record. The hostname you enter in this setup screen will be what is embedded into your client installers. In addition, it defines the url that will be used when visiting your server's web management dashboard, as well as obtaining ssl certificates.
 ## SSL Certificate
-You will have the option of either generating a free Letsencrypt certificate, self-signing, or uploading your own certificate from your certificate authority. Note that if you self-sign, you will need to manually trust https connections to your host before phase 2 of setup
+You will have the option of either managing your ssl through reverse proxy, self-signing, or uploading your own certificate from your certificate authority. Note that if you self-sign, you will need to manually trust https connections to your host before phase 2 of setup
 ## SMTP Setup
 Enter the smtp credentials issued by your email provider. You are advised to use SMTP port 587 whenever possible.
 ## License Activation
